@@ -1,4 +1,4 @@
-# ✈️ British Airways Passenger CSAT Intelligence Dashboard
+#  British Airways Passenger CSAT Intelligence Dashboard
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/sibamsen/Cricket-World-Cup-Analytics-Dashboard)
 ![GitHub contributors](https://img.shields.io/github/contributors/sibamsen/Cricket-World-Cup-Analytics-Dashboard)
@@ -30,7 +30,7 @@ This dashboard is designed to be **interactive, dynamic, and stakeholder-friendl
 
 ---
 
-## 🧩 Datasets Used
+##  Datasets Used
 
 ### 📂 Dataset 1: `ba_reviews.csv`
 - **Rows:** 1,324 passenger reviews
@@ -49,25 +49,25 @@ This dashboard is designed to be **interactive, dynamic, and stakeholder-friendl
 
 ## 🔧 Methodology
 
-### 1️⃣ Data Cleaning & Preprocessing
+### 1️ Data Cleaning & Preprocessing
 - Corrected data types for rating and date columns
 - Handled invalid values using conditional logic (`try … otherwise null`)
 - Standardized text fields (Seat Type, Traveller Type, Country)
 - Removed noise from text columns while preserving dataset size
 
-### 2️⃣ Data Modeling
+### 2️ Data Modeling
 - Created a **One-to-Many (1:*) relationship**  
   - `Countries[Country] → ba_reviews[Country]`
 - Enabled cross-filtering for country, continent, and region slicers
 - Added a **Metric table** to support dynamic metric selection
 
-### 3️⃣ DAX Measures
+### 3️ DAX Measures
 - Average Overall Rating
 - Dynamic Selected Metric measure
 - Review Count
 - KPI-level calculations for all service categories
 
-### 4️⃣ Data Visualization
+### 4️ Data Visualization
 - KPI cards for high-level performance summary
 - Donut chart for review distribution by seat type
 - Dynamic bar charts driven by metric selector
@@ -77,7 +77,7 @@ This dashboard is designed to be **interactive, dynamic, and stakeholder-friendl
 
 ---
 
-## 🛠 Tools & Technologies Used
+##  Tools & Technologies Used
 
 - **Power BI Desktop**
 - **Power Query Editor**
@@ -87,7 +87,7 @@ This dashboard is designed to be **interactive, dynamic, and stakeholder-friendl
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 
 - Average Overall Rating is **moderately positive**, but not exceptional
 - **Food and Value for Money** are the lowest-rated service categories
@@ -98,7 +98,7 @@ This dashboard is designed to be **interactive, dynamic, and stakeholder-friendl
 
 ---
 
-## 💡 Recommendations
+##  Recommendations
 
 - Improve **meal quality and pricing perception**, especially for long-haul flights
 - Focus service enhancements on **Economy and Business Class** passengers
@@ -123,7 +123,7 @@ This dashboard is designed to be **interactive, dynamic, and stakeholder-friendl
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This Power BI dashboard provides a **comprehensive and interactive view of British Airways’ customer satisfaction landscape**.  
 By combining strong data modeling, dynamic metrics, and intuitive visual design, this project enables stakeholders to make **actionable, data-backed decisions** that can significantly enhance passenger experience and brand perception.
@@ -132,7 +132,7 @@ By combining strong data modeling, dynamic metrics, and intuitive visual design,
 
 ## 👤 Author
 
-**Eshani Sinha**  
+**Eshani Banik**  
 Aspiring Data Analyst | Power BI | SQL | Python | Analytics  
 📍 India
 
