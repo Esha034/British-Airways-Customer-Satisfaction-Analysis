@@ -41,13 +41,13 @@ This dashboard is designed to be **interactive, dynamic, and stakeholder-friendl
   - Seat Type, Traveller Type, Aircraft  
   - Country, Review Date, Review Content  
 
-### 🌍 Dataset 2: `Countries.csv`
+###  Dataset 2: `Countries.csv`
 - **Rows:** 251 countries
 - **Purpose:** Used for continent and regional mapping to enable geographic filtering and drill-down.
 
 ---
 
-## 🔧 Methodology
+##  Methodology
 
 ### 1️ Data Cleaning & Preprocessing
 - Corrected data types for rating and date columns
